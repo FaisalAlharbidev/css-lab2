@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.header {
+    position: relative;
+    text-align: center;
+    background-image: url('img/soupHedar.jpg'); /* Replace with your image */
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+}
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.header img {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 100px;
+    border-radius: 50%;
+}
+.description {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.info div {
+    text-align: center;
+}
+.ingredients, .directions {
+    padding: 20px;
+}
+.ingredients h2, .directions h2 {
+    margin-top: 0;
+    background-color: #cdb66b;
+    border-radius:20px ;
+    width: auto;
+}
+.ingredients ul {
+    list-style: none;
+    padding: 0;
+}
+.ingredients li {
+    padding: 5px 0;
+}
